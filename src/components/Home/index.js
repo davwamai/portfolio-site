@@ -4,6 +4,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 import Logo from './Logo';
+import Loader from 'react-loaders';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
     }, [])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -31,13 +33,15 @@ const Home = () => {
                 <br />
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
                 </h1>
-                <h2>Aspiring Developer / Java Expert / Mathematics Enthusiast</h2>
+                <h2>Aspiring Developer / Breadboard Hobbyist / Mathematics Enthusiast</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link> 
             </div>
 
             <Logo></Logo>
 
         </div>
+        <Loader type='pacman' />
+        </>
 
     );
 
