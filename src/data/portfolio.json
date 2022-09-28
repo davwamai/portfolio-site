@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+        {
+            "cover":"/portfolio/1/PDF_file_icon.svg.png",
+            "title": "Resume",
+            "description": "David Wamai's 2022 Resume",
+            "url": "public/portfolio/1/ResumeDWAMAI.pdf"
+        },
+        {
+            "cover":"/portfolio/1/PDF_file_icon.svg.png",
+            "title": "Resume",
+            "description": "David Wamai's 2022 Resume",
+            "url": "http://google.com"
+        }
+    ]
+}
