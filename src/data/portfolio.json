@@ -1,16 +1,16 @@
 {
     "portfolio": [
         {
-            "cover":"/portfolio/1/PDF_file_icon.svg.png",
-            "title": "Resume",
-            "description": "David Wamai's 2022 Resume",
-            "url": "public/portfolio/1/ResumeDWAMAI.pdf"
+            "cover":"/portfolio/1/Screenshot from 2022-09-29 10-06-27.png",
+            "title": "LinkedIn",
+            "description": "David Wamai's LinkedIn",
+            "url": "https://www.linkedin.com/in/davwamai/"
         },
         {
-            "cover":"/portfolio/1/PDF_file_icon.svg.png",
-            "title": "Resume",
-            "description": "David Wamai's 2022 Resume",
-            "url": "http://google.com"
+            "cover":"/portfolio/1/Screenshot from 2022-09-29 10-16-05.png",
+            "title": "GitHub",
+            "description": "David Wamai's GitHub",
+            "url": "https://github.com/davwamai"
         }
     ]
 }

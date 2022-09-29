@@ -51,30 +51,30 @@
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
-            margin-bottom: 10px;
+            margin-bottom: -10px;
 
-            &:before{
+            &::before{
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
                 color: #5865F2;
                 font-size: 18px;
-                position: absolute;
+                position: relative;
                 margin-top: -10px;
                 left: -10px;
                 opacity: 0.6;
                 line-height: 18px;
             }
 
-            &:after{
+            &::after{
                 content: '</h1>';
                 font-family: 'La Belle Aurore';
                 color: #5865F2;
                 font-size: 18px;
                 line-height: 18px;
-                position: absolute;
+                position: relative;
                 left: -30px;
                 bottom: -20;
-                margin-left: 20px;
+                margin-left: 40px;
                 opacity: 0.6;
             }
         }

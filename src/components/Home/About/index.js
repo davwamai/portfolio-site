@@ -32,7 +32,7 @@ const About = () => {
                 job is done.   </p> 
                 <p>I'm quietly confident, naturally curious, and always looking for ways to improve my skills and learn from others. 
                 </p>
-                <p>If I need to define myself in one sentence, I would say I am a family oritented person who loves food, his, cat, and 
+                <p>If I need to define myself in one sentence, I would say I am a family-oriented person who loves food, his cat, and 
                     tech!
                 </p>
             </div>

@@ -96,6 +96,12 @@
             }
         }
 
+        a.resume-link{
+            &:after{
+                content: "RESUME";
+            }
+        }
+
         a.active{
             svg{
                 color: #5865F2;

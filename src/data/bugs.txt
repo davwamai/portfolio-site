@@ -1,0 +1,10 @@
+sending email sends to 404
+
+refreshing portfolio sends to server 
+
+home button highlight
+
+socials links on contact page 
+
+react app tab name
+

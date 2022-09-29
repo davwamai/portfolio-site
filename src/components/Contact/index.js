@@ -53,8 +53,8 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    I am interested in research oppurtunities, apprenticeships, and interships; however,
-                    if you have other requests or questions, please do not hesitate to contect me using the below. 
+                    I am interested in research opportunities, apprenticeships, and internships; however,
+                    if you have other requests or questions, please do not hesitate to contact me using the field below. 
                 </p>
                 <div className="contact-form">
                     <form ref={refForm} onSubmit={sendEmail}>
@@ -72,7 +72,7 @@ const Contact = () => {
                                 <textarea placeholder="Message" name="message" required></textarea>
                             </li>
                             <li>
-                                <input type="submit" className='flat-button' value="SEND"/>
+                                <input type="submit" className='flat-button' value="SEND" />
                             </li>
                         </ul>
                     </form>
