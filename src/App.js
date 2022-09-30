@@ -9,6 +9,7 @@ import PDFFile from './components/PDFViewer/PDFFile';
 
 
 function App() {
+  
   return (  
     <>
       <Routes>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/resume" element={<PDFFile />} />
         </Route>
       </Routes>
+      
     </>
   )
 }

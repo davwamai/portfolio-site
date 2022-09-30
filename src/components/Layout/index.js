@@ -1,12 +1,17 @@
 import './index.scss';
 import Sidebar from '../Sidebar/'
 import { Outlet } from 'react-router-dom';
+import ParticleBackground from '../../pConfig/particleBackground';
 
 const Layout = () => {
+
     return (
         <div className="App">
+           
             <Sidebar />
+                <ParticleBackground/>
             <div className="page">
+                
                 <span className="tags top-tags">&lt;body&gt;</span>
                 
                 <Outlet />
