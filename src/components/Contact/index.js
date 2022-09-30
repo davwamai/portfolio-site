@@ -9,6 +9,7 @@ import React from 'react'
 
 const Contact = () => {
 
+
     const [letterClass, setLetterClass] = useState('text-animate')
 
     const refForm = useRef()
@@ -32,7 +33,7 @@ const Contact = () => {
             .then(
                 () => {
                     alert('Message was successfully sent!')
-                    window.location.reload(false)
+                    window.location.replace('/')
                 },
                 () => {
                     alert('Failed to send message, please try again')
@@ -86,6 +87,7 @@ const Contact = () => {
                 <br/>
                 300 Main St. <br/>
                 <span>davwamai@gmail.com</span>
+                <span>Phone: (803) 602-2487</span>
             </div>
             <div className='map-wrap'>
                 <MapContainer center={[33.99033271939652, -81.0280650731481]} zoom={13}>
