@@ -27,6 +27,10 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
+                <p>I am, as of now, semi-proficient in Frontend Development, particularly with distributions included in the React framework.
+                    There are many development tools I am very familiar with that are not included in the animation on the right. Examples
+                    include but are not limited to <span className='python'>Python</span><span className='three'>3</span>, <span className='sage'>SageMath</span>, <span className='wolfram'>Mathematica</span>, <span className='gsap'>gsap</span>, <span className='json'>JSON</span>, <span className='cpp'>C++</span>, <span className='clang'>C</span>, <span className='manim'>Manim</span>, and <span className='sass'>Sass</span>.
+                </p>
                 <p>I'm very ambitious when it comes to all things related to computer science or mathematics in any variety. 
                 Projects are challenges rather than tasks to me, I find the mentality to be much more rewarding in the end when the 
                 job is done.   </p> 
